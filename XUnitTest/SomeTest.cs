@@ -14,6 +14,7 @@ namespace XUnitTest
         {
             SomeClass foo = new SomeClass();
             Assert.Equal("bar", foo.getBar());
+            Console.WriteLine("Console. hogehoge");
         }
     }
 }
