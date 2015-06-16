@@ -2,8 +2,7 @@ language: csharp
 solution: XUnitTest.sln
 install:
   - nuget restore XUnitTest.sln
-  - nuget install xunit -Version 2.0.0
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
+  - nuget install xunit.runners -Version 2.0.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release XUnitTest.sln
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./XUnitTest/bin/Release/XUnitTest.dll
+  - mono ./testrunner/xunit.runners.2.0.0/tools/xunit.console.clr4.exe ./XUnitTest/bin/Release/XUnitTest.dll
