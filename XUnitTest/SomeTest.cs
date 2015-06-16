@@ -17,7 +17,7 @@ namespace XUnitTest
         {
             SomeClass foo = new SomeClass();
 
-            Assert.Equal("aaa", foo.getBar());
+            Assert.Equal("aaaa", foo.getBar());
         }
     }
 }
