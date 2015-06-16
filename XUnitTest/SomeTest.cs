@@ -13,7 +13,7 @@ namespace XUnitTest
         public void TestMethod()
         {
             SomeClass foo = new SomeClass();
-            Assert.Equal("hoge", foo.getBar());
+            Assert.Equal("bar", foo.getBar());
         }
     }
 }
