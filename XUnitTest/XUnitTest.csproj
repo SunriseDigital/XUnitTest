@@ -34,7 +34,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Projects\XUnitTest\packages\xunit.runners.1.9.2\tools\xunit.gui.clr4.exe</StartProgram>
+    <StartProgram>$(ProgramFiles)\Gallio\bin\Gallio.Icarus.exe</StartProgram>
     <StartArguments>$(AssemblyName).dll</StartArguments>
   </PropertyGroup>
   <ItemGroup>

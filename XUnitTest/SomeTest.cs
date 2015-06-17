@@ -16,5 +16,13 @@ namespace XUnitTest
             Assert.Equal("bar", foo.getBar());
             Console.WriteLine("Console. hogehoge");
         }
+
+        [Fact]
+        public void 日本語のメソッド()
+        {
+            SomeClass foo = new SomeClass();
+            Assert.Equal("bar", foo.getBar());
+            Console.WriteLine("Console. hogehoge");
+        }
     }
 }
